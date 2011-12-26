@@ -1,11 +1,11 @@
-# revision 24789
+# revision 24913
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-fiwi
-# catalog-date 2011-12-07 11:02:00 +0100
+# catalog-date 2011-12-22 11:25:03 +0100
 # catalog-license lppl1.3
-# catalog-version 1.1c
+# catalog-version 1.1d
 Name:		texlive-biblatex-fiwi
-Version:	1.1c
+Version:	1.1d
 Release:	1
 Summary:	Biblatex styles for use in German humanities
 Group:		Publishing
@@ -53,6 +53,13 @@ in German.
 %doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/README
 %doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/biblatex-fiwi.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/biblatex-fiwi.tex
+%doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi-options.pdf
+%doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi-options.tex
+%doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi.pdf
+%doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi.tex
+%doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi2-options.pdf
+%doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi2.pdf
+%doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi2.tex
 %doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/examples.bib
 %doc %{_tlpkgobjdir}/*.tlpobj
 
