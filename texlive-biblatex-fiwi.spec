@@ -27,16 +27,8 @@ biblatex styles. The style is highly optimized for documents
 written in German, and the main documentation is only available
 in German.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -61,7 +53,6 @@ in German.
 %doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi2.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/example-biblatex-fiwi2.tex
 %doc %{_texmfdistdir}/doc/latex/biblatex-fiwi/examples.bib
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -72,5 +63,3 @@ in German.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
