@@ -66,3 +66,28 @@ in German.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2-1
++ Revision: 813328
+- Update to latest release.
+
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1e-1
++ Revision: 779419
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1d-2
++ Revision: 749612
+- Rebuild to reduce used resources
+
+* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1d-1
++ Revision: 745159
+- texlive-biblatex-fiwi
+- texlive-biblatex-fiwi
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1a-1
++ Revision: 732503
+- texlive-biblatex-fiwi
+- texlive-biblatex-fiwi
+
