@@ -1,12 +1,12 @@
-# revision 30448
+# revision 32629
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-fiwi
-# catalog-date 2013-05-13 20:00:44 +0200
+# catalog-date 2014-01-10 15:31:11 +0100
 # catalog-license lppl1.3
-# catalog-version 1.2d
+# catalog-version 1.2e
 Name:		texlive-biblatex-fiwi
-Version:	1.2d
-Release:	5
+Version:	1.2e
+Release:	1
 Summary:	Biblatex styles for use in German humanities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-fiwi
