@@ -6,7 +6,7 @@
 # catalog-version 1.2e
 Name:		texlive-biblatex-fiwi
 Version:	1.2e
-Release:	3
+Release:	4
 Summary:	Biblatex styles for use in German humanities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-fiwi
